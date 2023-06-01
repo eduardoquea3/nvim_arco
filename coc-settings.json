@@ -1,0 +1,65 @@
+{
+  "colors.enable": true,
+  "suggest.floatConfig": {
+    "border": true,
+    "rounded": true,
+    "highlight": "Treesitter"
+  },
+  "diagnostic.floatConfig": {
+    "border": true,
+    "rounded": true,
+    "highlight": "Treesitter"
+  },
+  "signarute.floatConfig": {
+    "border": true,
+    "rounded": true
+  },
+  "hover.floatConfig": {
+    "border": true,
+    "rounded": true
+  },
+  "Lua.telemetry.enable": true,
+  "Lua.diagnostics.globals": [
+    "vim"
+  ],
+  "emmet.syntaxProfiles": {
+    "html": {
+      "inline_break": true
+    }
+  },
+  "suggest.completionItemKindLabels": {
+    "method": " ",
+    "function": " ",
+    "variable": " ",
+    "field": "ﰠ ",
+    "typeParameter": " ",
+    "constant": " ",
+    "class": "ﴯ ",
+    "interface": " ",
+    "struct": "פּ ",
+    "event": " ",
+    "operator": " ",
+    "module": " ",
+    "property": " ",
+    "enum": " ",
+    "reference": " ",
+    "keyword": " ",
+    "file": " ",
+    "folder": " ",
+    "color": " ",
+    "constructor": " ",
+    "text": " ",
+    "enumMember": " ",
+    "snippet": " ",
+    "value": " ",
+    "unit": " "
+  },
+  "coc.preferences.formatOnSave": true,
+  "snippets.ultisnips.trace": true,
+  "suggest.formatItems": [
+    "kind",
+    "abbr"
+  ],
+  "suggest.enablePreselect": true,
+  "snippets.ultisnips.pythonPrompt": false
+}
