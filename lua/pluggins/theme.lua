@@ -4,7 +4,7 @@ require("catppuccin").setup({
     light = "latte",
     dark = "mocha",
   },
-  transparent_background = true,
+  --transparent_background = true,
   show_end_of_buffer = false, -- show the '~' characters after the end of buffers
   term_colors = false,
   dim_inactive = {
@@ -49,6 +49,4 @@ require("transparent").setup({
     'Conditional', 'Repeat', 'Operator', 'Structure', 'LineNr', 'NonText',
     'SignColumn', 'CursorLineNr', 'EndOfBuffer', 'CocFloating', 'NormalFloat', 'FloatBorder'
   },
-  extra_groups = {},   -- table: additional groups that should be cleared
-  exclude_groups = {}, -- table: groups you don't want to clear
 })

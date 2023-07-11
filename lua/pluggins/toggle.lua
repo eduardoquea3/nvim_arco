@@ -18,5 +18,5 @@ require('toggleterm').setup({
     },
   },
 })
-vim.keymap.set('n', '<leader>t', ':ToggleTerm<cr>')
-vim.keymap.set('t', '<leader>t', '<C-\\><C-n>:ToggleTerm<cr>')
+vim.keymap.set('n', '<A-m>', ':ToggleTerm<cr>')
+vim.keymap.set('t', '<A-m>', '<C-\\><C-n>:ToggleTerm<cr>')

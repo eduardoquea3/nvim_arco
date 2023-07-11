@@ -27,9 +27,10 @@ require("lazy").setup({
   'folke/which-key.nvim',
   'folke/todo-comments.nvim',
   'folke/twilight.nvim',
-  { 'kevinhwang91/nvim-ufo',           dependencies = 'kevinhwang91/promise-async' },
+  { 'kevinhwang91/nvim-ufo', dependencies = 'kevinhwang91/promise-async' },
 
   --autocompletado
+  { 'turbio/bracey.vim',     build = 'npm install --prefix server' },
   'jiangmiao/auto-pairs',
   {
     'neoclide/coc.nvim',
@@ -64,7 +65,7 @@ require("lazy").setup({
 
   --navegacion entre archivos y/o proyectos
   'nvim-lua/plenary.nvim',
-  { 'nvim-telescope/telescope.nvim',            version = "0.1.0" },
+  { 'nvim-telescope/telescope.nvim',   version = "0.1.0" },
   'nvim-lua/popup.nvim',
   { 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' },
   'nvim-neo-tree/neo-tree.nvim',
